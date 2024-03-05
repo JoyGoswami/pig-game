@@ -80,7 +80,7 @@ holdBtn.addEventListener("click", function () {
     document.getElementById(`score--${currentPlayer}`).textContent =
       score[currentPlayer];
     // 2. check score is greater than 100
-    if (score[currentPlayer] >= 20) {
+    if (score[currentPlayer] >= 100) {
       // 3. if yes player win. game finished
       playing = false;
       diceEl.classList.add("hidden");
